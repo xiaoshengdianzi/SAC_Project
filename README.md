@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 # SAC (Soft Actor-Critic) Implementation
+
+Soft Actor-Critic (SAC) implementation in PyTorch. A maximum entropy deep reinforcement learning algorithm for continuous control tasks, featuring automatic alpha tuning and double Q-learning.
 
 This repo contains a minimal SAC implementation for both continuous (Pendulum-v1) and discrete (CartPole-v1) action spaces, with a simple training/evaluation entrypoint.
 
@@ -13,7 +14,7 @@ This repo contains a minimal SAC implementation for both continuous (Pendulum-v1
 ## Clone
 
 ```bash
-git clone [your-github-repo-url]
+git clone https://github.com/xiaoshengdianzi/SAC_Project.git
 ```
 
 ## Install
@@ -44,12 +45,12 @@ Behavior:
 The following curves are generated during training:
 
 ### Pendulum-v1 (Continuous SAC)
-- `outputs/Pendulum-v1_sac_seed0.png` - Return curve
-- `outputs/Pendulum-v1_sac_losses_seed0.png` - Loss curves
+- Return curve: `outputs/Pendulum-v1_sac_seed0.png`
+- Loss curves: `outputs/Pendulum-v1_sac_losses_seed0.png`
 
 ### CartPole-v1 (Discrete SAC)
-- `outputs/CartPole-v1_sac_discrete_seed0.png` - Return curve
-- `outputs/CartPole-v1_sac_discrete_losses_seed0.png` - Loss curves
+- Return curve: `outputs/CartPole-v1_sac_discrete_seed0.png`
+- Loss curves: `outputs/CartPole-v1_sac_discrete_losses_seed0.png`
 
 ## Notes
 
@@ -64,7 +65,7 @@ The following curves are generated during training:
 - `sac_discrete.py` - SAC implementation for discrete action spaces
 - `rl_utils.py` - Utility functions for reinforcement learning
 - `outputs/` - Directory for saving training results and plots
-=======
-# SAC_Project
-Soft Actor-Critic (SAC) implementation in PyTorch. A maximum entropy deep reinforcement learning algorithm for continuous control tasks, featuring automatic alpha tuning and double Q-learning.
->>>>>>> b6ff54239416454d7306f96604cc8c5d1182eaa5
+
+## Blog
+
+- https://blog.csdn.net/m0_66676819/article/details/159958579?spm=1001.2014.3001.5501
