@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SAC (Soft Actor-Critic) Implementation
 
 This repo contains a minimal SAC implementation for both continuous (Pendulum-v1) and discrete (CartPole-v1) action spaces, with a simple training/evaluation entrypoint.
@@ -63,3 +64,7 @@ The following curves are generated during training:
 - `sac_discrete.py` - SAC implementation for discrete action spaces
 - `rl_utils.py` - Utility functions for reinforcement learning
 - `outputs/` - Directory for saving training results and plots
+=======
+# SAC_Project
+Soft Actor-Critic (SAC) implementation in PyTorch. A maximum entropy deep reinforcement learning algorithm for continuous control tasks, featuring automatic alpha tuning and double Q-learning.
+>>>>>>> b6ff54239416454d7306f96604cc8c5d1182eaa5
