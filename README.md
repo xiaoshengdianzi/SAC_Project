@@ -45,12 +45,24 @@ Behavior:
 The following curves are generated during training:
 
 ### Pendulum-v1 (Continuous SAC)
-- Return curve: `outputs/Pendulum-v1_sac_seed0.png`
-- Loss curves: `outputs/Pendulum-v1_sac_losses_seed0.png`
+
+**Return Curve:**
+
+![Pendulum-v1 Return Curve](outputs/Pendulum-v1_sac_seed0.png)
+
+**Loss Curves:**
+
+![Pendulum-v1 Loss Curves](outputs/Pendulum-v1_sac_losses_seed0.png)
 
 ### CartPole-v1 (Discrete SAC)
-- Return curve: `outputs/CartPole-v1_sac_discrete_seed0.png`
-- Loss curves: `outputs/CartPole-v1_sac_discrete_losses_seed0.png`
+
+**Return Curve:**
+
+![CartPole-v1 Return Curve](outputs/CartPole-v1_sac_discrete_seed0.png)
+
+**Loss Curves:**
+
+![CartPole-v1 Loss Curves](outputs/CartPole-v1_sac_discrete_losses_seed0.png)
 
 ## Notes
 
